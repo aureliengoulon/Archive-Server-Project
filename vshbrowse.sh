@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Written by Aurelien Goulon and Pierre Vauzelle
+# Written by Aurelien Goulon
 
 # -browse mode
 
