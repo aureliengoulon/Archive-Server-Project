@@ -6,7 +6,7 @@ We created a linux-based archive server with shell scripts, using Bash and AWK. 
 ======================
 * Listing mode to know available archives on the server
 * Extraction mode to download an archive and automatically extract the files from it
-* Browsing mode to run through the archive, explore and alter directories/files
+* Browsing mode to run through the archives, explore and alter directories/files
   * ls
   * cd
   * pwd
