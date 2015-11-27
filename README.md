@@ -19,9 +19,18 @@ We created a linux-based archive server with shell scripts, using Bash and AWK. 
 Please, follow the required setup below to run the scripts. These programs are intended to run on a recent distribution of Linux (compatible with Ubuntu 12 and Debian 7). They are not intended to run an other distributions or platform, even if some of them might run the server without much issues.
 
 The server-side should be running vshserver.sh in the first place.
+
+		./vshserver.sh
+
 Make this file executable and run it. The server can be runned locally for testing purposes.
 
 Only then, the client-side can connect to the server. It must provide an available client port to receive the messages on its side (8080 or 8888 should do it).
+
+		./vshclient.sh -list [server-address] [client-port-number]
+
+		./vshclient.sh -browse [server-address] [client-port-number]
+
+		./vshclient.sh -extract [server-address] [client-port-number archive-name]
 
 
 * server_directory
