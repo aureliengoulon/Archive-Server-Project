@@ -34,6 +34,9 @@ Only then, the client-side can connect to the server. It must provide an availab
 * client_directory
 	* vshclient.sh
 
+======================
+Screenshots from the running server below
+
 <i>List mode</i>
 <p><img src="https://cloud.githubusercontent.com/assets/5488566/11448488/8687a27e-9540-11e5-83e2-da485698caa7.png" alt="List-mode" width="400px"/></p>
 
