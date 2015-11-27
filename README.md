@@ -16,7 +16,7 @@ We created a linux-based archive server with shell scripts, using Bash and AWK. 
   * exit
 
 ======================
-Please, follow the following setup to run the scripts.
+Please, follow the required setup below to run the scripts. These programs are intended to run on a recent distribution of Linux (compatible with Ubuntu 12 and Debian 7). They are not intended to run on other distributions or platform.
 The server-side should be running vshserver.sh in the first place.
 Make this file executable and run it. The server can be runned locally for testing purposes.
 
