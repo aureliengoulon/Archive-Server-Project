@@ -34,5 +34,21 @@ Only then, the client-side can connect to the server. It must provide an availab
 * client_directory
 	* vshclient.sh
 
+<i>List mode</i>
+<p><img src="https://cloud.githubusercontent.com/assets/5488566/11448488/8687a27e-9540-11e5-83e2-da485698caa7.png" alt="List-mode" width="400px"/></p>
+
 <i>Extract mode</i>
-<img src="https://cloud.githubusercontent.com/assets/5488566/11448489/8688d3ce-9540-11e5-8628-2c239d8c4ce4.png" alt="Extract-mode" />
+<p><img src="https://cloud.githubusercontent.com/assets/5488566/11448489/8688d3ce-9540-11e5-8628-2c239d8c4ce4.png" alt="Extract-mode" width="400px"/></p>
+
+<i>Browse mode</i>
+* <i>ls</i>
+<p><img src="https://cloud.githubusercontent.com/assets/5488566/11448485/868249aa-9540-11e5-9a4d-70f5faeb5fa2.png" alt="Browse-mode-ls" width="400px"/></p>
+
+* <i>cat</i>
+<p><img src="https://cloud.githubusercontent.com/assets/5488566/11448486/8683cea6-9540-11e5-8be3-d38bef87241b.png" alt="Browse-mode-ls" width="400px"/></p>
+
+* <i>cd, pwd</i>
+<p><img src="https://cloud.githubusercontent.com/assets/5488566/11448487/86851a54-9540-11e5-9327-2d7327dd95ef.png" alt="Browse-mode-ls" width="400px"/></p>
+
+* <i>rm</i>
+<p><img src="https://cloud.githubusercontent.com/assets/5488566/11448484/866959b8-9540-11e5-95bc-9c11ce3c9685.png" alt="Browse-mode-ls" width="400px"/></p>
