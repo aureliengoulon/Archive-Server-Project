@@ -16,9 +16,9 @@ checkpoint ()
 		fi
 	done
 }
-if [[ ! -f trololo ]]
+if [[ ! -f tempfifo ]]
 	then
-	mkfifo trololo
+	mkfifo tempfifo
 fi
 if [[ ! -f requestlog.txt ]]
 		then
@@ -56,17 +56,17 @@ do
 
 		case $1 in
 			"-list" )
-			mkfifo trololo
+			mkfifo tempfifo
 			chmod u+x vshlist.sh
-			nc -l -p $2 < trololo | ./vshlist.sh > trololo
-			rm trololo
+			nc -l -p $2 < tempfifo | ./vshlist.sh > tempfifo
+			rm tempfifo
 			;;
 
 			"-browse" )
-			mkfifo trololo
+			mkfifo tempfifo
 			chmod u+x vshbrowse.sh
-			nc -l -p $2 < trololo | ./vshbrowse.sh $3 > trololo
-			rm trololo
+			nc -l -p $2 < tempfifo | ./vshbrowse.sh $3 > tempfifo
+			rm tempfifo
 			;;
 
 			"-extract" )
@@ -78,6 +78,6 @@ do
 		esac
 		echo "CONNECTION ENDED"
 	fi
-	checkpoint dirlist.txt dirindex.txt endindex.txt trololo tmpfile istdirectory.txt request.txt
+	checkpoint dirlist.txt dirindex.txt endindex.txt tempfifo tmpfile istdirectory.txt request.txt
 
 done
