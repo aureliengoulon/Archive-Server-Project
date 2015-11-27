@@ -1,0 +1,28 @@
+3:21
+
+directory One/Two/
+Three drwxr-xr-x 4096
+File5 -rw-r--r-- 33 1 3
+@
+directory One/Two/Three
+Four drwxr-xr-x 4096
+Five drwxr-xr-x 4096
+Six drwxr-xr-x 4096
+File6 -rwxr-xr-x 64 4 4
+@
+directory One/Two/Three/Four
+File7 -rwxr--r-- 28 8 2
+@
+directory One/Two/Three/Five
+@
+directory One/Two/Three/Six
+@
+SAMPLE
+	This should be in File5.
+
+#!/bin/bash
+
+echo "Numerical Alphabet"
+echo "Slightly different"
+SAMPLE
+	Yep, File7. Finally.
