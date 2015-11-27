@@ -62,7 +62,7 @@ do
 			rm dirlist.txt
 			rm dirindex.txt
 			rm endindex.txt
-			rm trololo
+			rm tempfifo
 			rm tmpfile
 			rm listdirectory.txt
 			rm request.txt
