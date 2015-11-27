@@ -9,5 +9,5 @@ for i in *
 do
 	echo "$i"
 done
-rm trololo
+rm tempfifo
 rm request.txt
