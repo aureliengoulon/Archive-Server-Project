@@ -14,3 +14,23 @@ We created a linux-based archive server with shell scripts, using Bash and AWK. 
   * cat
   * clear
   * exit
+
+======================
+Please, follow the recommended setup to run the scripts.
+The server-side should be running vshserver.sh in the first place.
+Make this file executable and execute it.
+
+Only then the client-side can connect to the server and specify an available client port on its side (8080 or 8888 should do it).
+
+* server_directory
+ * Archives
+		* OneArchive.txt
+		* PokemonArchive.txt
+		* 		* OneArchive.txt
+
+	* vshserver.sh
+	* vshbrowse.sh
+	* vshlist.sh
+
+* client_directory
+		* vshclient.sh
