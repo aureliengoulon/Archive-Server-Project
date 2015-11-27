@@ -33,3 +33,6 @@ Only then, the client-side can connect to the server. It must provide an availab
 
 * client_directory
 	* vshclient.sh
+
+<i>Extract mode</i>
+<img src="https://cloud.githubusercontent.com/assets/5488566/11448489/8688d3ce-9540-11e5-8628-2c239d8c4ce4.png" alt="Extract-mode" />
