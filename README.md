@@ -18,7 +18,7 @@ We created a linux-based archive server with shell scripts, using Bash and AWK. 
 ======================
 Please, follow the following setup to run the scripts.
 The server-side should be running vshserver.sh in the first place.
-Make this file executable and execute it. The server can be runned locally for testing purposes.
+Make this file executable and run it. The server can be runned locally for testing purposes.
 
 Only then, the client-side can connect to the server. It must provide an available client port to receive the messages on its side (8080 or 8888 should do it).
 
