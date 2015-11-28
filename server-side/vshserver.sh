@@ -4,7 +4,7 @@
 
 # server side
 
-# cleaning server disk
+# cleaning server directory
 checkpoint ()
 {
 	nbarg=$(($#+1))
