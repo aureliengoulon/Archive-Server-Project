@@ -26,7 +26,7 @@ if [[ $# -ge 3 && $# -le 4 ]]
 			ipaddress=$(echo "127.0.0.1")
 		else
 			ipaddress=$(dig +short myip.opendns.com @resolver1.opendns.com)
-			# test portion for local running below
+			# test portion for local network below
 			# ipaddress=$(ifconfig en1 | grep "inet " | grep -v 127.0.0.1 | awk '{print $2}')
 		fi
 
