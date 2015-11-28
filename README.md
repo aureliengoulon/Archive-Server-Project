@@ -4,9 +4,9 @@ Project done during the Spring 2014 for the system administration course [ LO14 
 We created a linux-based archive server with shell scripts, using Bash and AWK. The main options were listing available archives, browsing each file content, and extracting an archive onto the client-side.
 <img src="https://mdn.mozillademos.org/files/4291/client-server.png" alt="Logo Server" width="400px"/>
 ======================
-* Listing mode to know available archives on the server
-* Extraction mode to download an archive and automatically extract the files from it
-* Browsing mode to run through the archives, explore and alter directories/files
+* Listing mode to know available archives on the server;
+* Extraction mode to download an archive and automatically extract the files from it;
+* Browsing mode to run through the archives, explore and alter directories/files:
   * ls
   * cd
   * pwd
@@ -16,7 +16,7 @@ We created a linux-based archive server with shell scripts, using Bash and AWK. 
   * exit
 
 ======================
-Please, follow the required setup below to run the scripts. These programs are intended to run on a recent distribution of Linux (compatible with Ubuntu 12 and Debian 7). They are not intended to run an other distributions or platform, even if some of them might run the server without much issues.
+Please, follow the required setup below to run the scripts. These programs are intended to run on a recent distribution of Linux (compatible with Ubuntu 12 and Debian 7). They are not intended to run an other distribution or platform, even if some of them might run the server without much issues.
 
 The server-side should be running vshserver.sh in the first place.
 
@@ -30,10 +30,10 @@ Only then, the client-side can connect to the server. It must provide an availab
 
 		./vshclient.sh -browse [server-address] [client-port-number]
 
-		./vshclient.sh -extract [server-address] [client-port-number archive-name]
+		./vshclient.sh -extract [server-address] [client-port-number] [archive-name]
 
 
-* server_directory
+* server-directory
 	* Archives
 		* PokmeonArchive.txt
 		* OneArchive.txt
@@ -41,7 +41,7 @@ Only then, the client-side can connect to the server. It must provide an availab
 	* vshbrowse.sh
 	* vshlist.sh
 
-* client_directory
+* client-directory
 	* vshclient.sh
 
 ======================
