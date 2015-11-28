@@ -31,7 +31,7 @@ echo -n "vsh:> "
 
 while read userinput
 do
-	# Reset command and options
+	# Reset browse command and browse option
 	bcmd=""
 	bopt=""
 
